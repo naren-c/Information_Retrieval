@@ -1,0 +1,29 @@
+Assignment 1:
+Implement a search engine by choosing a relevant corpus. The search engine should include implementation of inverted index. The implementation should include i)Boolean Model ii) retrieval based on similarity 
+The text content should be preprocessed before the creation of inverted index. Implementation should support phrase queries (combination of Biword index and positional indexing).
+The retrieved documents should appear in a ranked manner.
+Precision and Recall should be computed.
+In addition to implementation, each group should submit a detailed Analysis report that should include i) Justify preproccing techniques used, ii)justification for choosing an appropriate data structure iii) justification for choosing a typical similarity scoring scheme
+
+
+Group size of 4 
+Evaluated for 20 and reduced to 10 Marks
+Evaluation Parameters
+1. Preprocessing of raw data
+2. Generate Inverted Index (variation in data structures)
+3. handling wild card and phrase queries
+4. Retrieve relevant text using similarity index
+5. Retrieve relevant text using liklelihood language model
+6. Ranking of retrieved documents
+7. Advanced search: relevance feedback, semantic matching, reranking of results, finding out query intention (2 marks)
+
+8. Demonstration and Analysis Report
+
+
+Datasets(not exhaustive):
+1. Tweets
+2. IMDB
+3. RCV1
+4. TREC datasets
+5. collection of wikipedia pages
+etc...
